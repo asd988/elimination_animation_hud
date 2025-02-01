@@ -1,5 +1,10 @@
 # Elimination Animation HUD
 
+[![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+
+[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
+
 This is a minecraft resource pack that makes a valorant-like kill feedback, that appears on the HUD. It uses fonts and shaders to achieve the result. You can browse the repository if you're curious about how it works.
 
 ## Making your own animation
