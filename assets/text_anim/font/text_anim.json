@@ -1,0 +1,64 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                "\uffff": -1
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "text_anim:font/1k_sheet_0.png",
+            "height": 0,
+            "ascent": 0,
+            "chars": [
+                "\u0001"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "text_anim:font/2k_sheet_0.png",
+            "height": 0,
+            "ascent": 0,
+            "chars": [
+                "\u0002"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "text_anim:font/3k_sheet_0.png",
+            "height": 0,
+            "ascent": 0,
+            "chars": [
+                "\u0003"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "text_anim:font/4k_sheet_0.png",
+            "height": 0,
+            "ascent": 0,
+            "chars": [
+                "\u0004"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "text_anim:font/5k_sheet_0.png",
+            "height": 0,
+            "ascent": 0,
+            "chars": [
+                "\u0005"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "text_anim:font/5k_sheet_1.png",
+            "height": 0,
+            "ascent": 0,
+            "chars": [
+                "\u1005"
+            ]
+        }
+    ]
+}

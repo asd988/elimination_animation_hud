@@ -1,0 +1,57 @@
+# Usage:
+#     python3 cli.py [OPTIONS]
+#
+# Options:
+#   --input_folder, -i      Path to the folder containing animation frames.
+#   --input_name_start, -ns Prefix for the animation frame file names (if applicable). (default: "" AKA turned off)
+#   --animation_name, -n    The output name for the animation.
+#   --output_path           Path where output textures will be stored.
+#   --frame_rate, -f        Integer representing the frame rate mode:
+#                               1  -> 14.0 FPS
+#                               Any other number -> 18.667 FPS
+#                           (For custom frame rates, modify the vertex shader.)
+#   --resource_pack_path    Path used in the font provider configuration.
+#   --provider_path         Path where the output font provider file will be stored.
+#   --characters, -c        JSON string defining character(s) used for animation.
+#                           Example: --characters '[\"\u0005\", \"\u1005\"]'
+#   --identifier_color      Integer representing the identifier color (e.g., 0x84942d99).
+#   --options_file          Custom path to a `.toml` configuration file (default: script_options.toml).
+#
+# Example Usage:
+#       python3 cli.py -i "/path/to/frames/anim" -n "my_animation" -f 2 -c '[\"\u0005\", \"\u1005\"]'
+#
+# Notes:
+# - The script processes only `.png` frames.
+# - Ensure Python and dependencies from `requirements.txt` are installed.
+# - The resulting font provider must be manually copied into the actual font provider configuration.
+#
+# Options file:
+#   The same options can be defined in a options file like this one, the CLI input takes precedence.
+
+
+# The animation to be processed
+input_folder = "path/to/folder"
+input_name_start = ""
+
+# The output name for the animation
+animation_name = "5k"
+# The path where the output image(s) will be stored
+output_path = "assets/text_anim/textures/font/"
+
+# must be an integer, the frame rate associated with the animation, there are two variations:
+#   1: 14.0
+#   anything else: 56.0 / 3.0
+#
+#   if you want a custom frame rate, change the vertex shader
+frame_rate = 2
+
+## Font provider
+# The path used in the font provider
+resource_pack_path = "text_anim:font"
+# The path where the output font provider of the animation will be stored
+provider_path = "out_provider.json"
+# The character(s) that are used for the animation sheets
+characters = ["\u0005", "\u1005"]
+
+# The color that is used to identify the animations
+identifier_color = 0x84942d99

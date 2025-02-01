@@ -1,0 +1,17 @@
+{
+  "kill_1k": {
+    "sounds": [ {"name": "text_anim:kill_1k"} ]
+  },
+  "kill_2k": {
+    "sounds": [ {"name": "text_anim:kill_2k"} ]
+  },
+  "kill_3k": {
+    "sounds": [ {"name": "text_anim:kill_3k"} ]
+  },
+  "kill_4k": {
+    "sounds": [ {"name": "text_anim:kill_4k"} ]
+  },
+  "kill_5k": {
+    "sounds": [ {"name": "text_anim:kill_5k"} ]
+  }
+}
